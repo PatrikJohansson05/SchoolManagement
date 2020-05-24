@@ -2,6 +2,8 @@ package org.example.data_access;
 
 import org.example.model.Student;
 
+import java.util.List;
+
 public interface StudentDao {
     Student saveStudent(Student student);
     Student findByEmail(String email);

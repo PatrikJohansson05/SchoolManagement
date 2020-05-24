@@ -4,6 +4,8 @@ import org.example.model.Course;
 
 import java.time.LocalDate;
 
+import java.util.List;
+
 public interface CourseDao {
     Course saveCourse(Course course);
     Course findById(int id);
